@@ -92,17 +92,18 @@ ourTypes = { //This is a single line comment.
   */
   thisShouldBeUndefined: undefined, //replace the values to make tests pass!
 
-  thisShouldBeNull: 'null',
+  thisShouldBeNull: null,
 
-  aBoolean: 88,
+  aBoolean: false,
 
-  anotherBoolean: 'what\'s the difference between true and truthy?',
+  anotherBoolean: true,
 
-  aString: 0,
+  aString: "0",
 
-  aNumber: '123'
+  aNumber: 5555
 };
-
+var example;
+example = 'Javascript is fun!'
 /******************
 Now for the fun bit! There was some code to get you started on the last section.
 For this section, read the tests (either in the test/spec.js file, or right there in the browser). Figure out what the tests are looking for, and make them pass.
