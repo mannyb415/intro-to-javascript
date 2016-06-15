@@ -121,8 +121,15 @@ understand what we're looking for!
   The first two tests pass. Discuss why with your partner.
 */
 var foo;
-
-
+var bar = 'barValue';
+var num1 = 10;
+var num2 = 20;
+var total = (num1 + num2);
+var num3 = 5;
+var minus = (total - num3);
+var divided = (total / num3);
+var remainder = 2;
+var remainderToString = '2';
 
 
 
@@ -132,9 +139,13 @@ var foo;
   Use the variables from the last section and follow the prompts below.
 */
 
-
-
-
+var firstResult = num1 > num3;
+var secondResult = total - num2 == num1;
+var numberAsString = '10';
+var equals = num1 == numberAsString;
+var deepEquals = num1 === numberAsString;
+var thirdResult = deepEquals <= num1;
+var fourthResult = num1 <= numberAsString;
 
 
 /*
