@@ -2,7 +2,7 @@
   Ok, so now that we're getting pretty comfortable with conditionals, let's introduce a couple of new operators; 
   the logical operators.
 
-  https://developer.mozilla.org/en-US/search?q=logical+operators 
+ 
 
   && - and operator
   || - or operator
@@ -82,12 +82,12 @@
 
 
 // declare a variable called lOne
+var lOne = true
 
 // assign lOne a value of true
 
 // write an if/else statement that declares a variable named lAOne and assigns it a value of 
 // true if lOne is not true, and false otherwise.
-
 
 // declare a variable called lTwo
 
@@ -151,5 +151,4 @@
 // is 25 + 25 equal to 50 and does lAOne not equal true?
   // then assign lSix a value of 252550
 // otherwise assign lSix a value of 1010
-
 
